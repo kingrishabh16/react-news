@@ -1,0 +1,84 @@
+.main-container{
+    background-color: #1434A4;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.cal-container{
+    background-color: transparent;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 25px;
+    color: aliceblue;
+    font-family: "Roboto";
+    justify-content: flex-start;
+}
+
+.text-area{
+    color: #ffffff;
+    background-color: black;
+    justify-content: end;
+}
+
+.input-area{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+    background-color: #191970;
+}
+.button-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 2px;
+}
+.number{
+    display: inline-block;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding-left: 9px;
+    margin-left: 5px;
+    width: 50px;
+}
+.delete{
+    display: inline-block;
+    background-color: #6495ED;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 34px;
+    margin-left: 5px;
+    padding-left: 7px;
+    justify-content: center;
+}
+.reset{
+    background-color: #6495ED;
+    color: #ffffff;
+    padding-left: 2px;
+    margin-left: 5px;
+    padding-left: 12px;
+    width: 80px;
+}
+.result{
+    color: #ffffff;
+    padding-left: 2px;
+    background-color: #EE4B2B;
+    padding-left: 2px;
+    margin-left: 5px;
+    padding-left: 12px;
+    width: 80px;
+}
